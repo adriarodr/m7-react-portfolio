@@ -1,17 +1,12 @@
-function Nav() {
-  const links = [
-    { section: 'About Me', path: '#about-me' },
-    { section: 'Projects', path: '#projects' },
-    { section: 'Skills', path: '#skills' },
-    { section: 'Experience', path: '#experience' },
-  ];
+import Link from './Link';
 
+function Nav({ id, links, isExternal }) {
   return (
-    <nav id="main-nav">
+    <nav id={id}>
       <ul>
         {links.map((link) => (
-          <li key={link.path}>
-            <a href={link.path}>{link.section}</a>
+          <li>
+            <Link url={link.url} text={link.text} isExternal={isExternal} />
           </li>
         ))}
       </ul>
