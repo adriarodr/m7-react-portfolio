@@ -1,6 +1,13 @@
 import Nav from './Nav';
 
 function Header() {
+  const links = [
+    { text: 'About Me', url: '#about-me' },
+    { text: 'Projects', url: '#projects' },
+    { text: 'Skills', url: '#skills' },
+    { text: 'Experience', url: '#experience' },
+  ];
+
   return (
     <header>
       {/* name and professional title */}
@@ -8,7 +15,7 @@ function Header() {
       <p>Web Development Student</p>
 
       {/* simple navigation */}
-      <Nav />
+      <Nav id="main-nav" links={links} isExternal={false} />
     </header>
   );
 }
