@@ -1,5 +1,5 @@
 function Skills() {
-  const skills = ['HTML', 'CSS', 'JavaScript'];
+  const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Vue'];
 
   return (
     <section id="skills">

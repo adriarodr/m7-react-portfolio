@@ -33,21 +33,22 @@ export default function Projects() {
           </label>
         ))}
       </div>
-
-      {visibleProjects.length === 0 ? (
-        <p>No projects in this category yet.</p>
-      ) : (
-        visibleProjects.map((project) => (
-          <ProjectCard
-            key={project.id}
-            image={project.image}
-            title={project.title}
-            description={project.description}
-            technologies={project.technologies}
-            link={project.link}
-          />
-        ))
-      )}
+      <div className="container">
+        {visibleProjects.length === 0 ? (
+          <p>No projects in this category yet.</p>
+        ) : (
+          visibleProjects.map((project) => (
+            <ProjectCard
+              key={project.id}
+              image={project.image}
+              title={project.title}
+              description={project.description}
+              technologies={project.technologies}
+              link={project.link}
+            />
+          ))
+        )}
+      </div>
     </section>
   );
 }

@@ -2,20 +2,22 @@ import Nav from './Nav';
 
 function Header() {
   const links = [
-    { id: 0, text: 'About Me', url: '#about-me' },
-    { id: 1, text: 'Projects', url: '#projects' },
-    { id: 2, text: 'Skills', url: '#skills' },
-    { id: 3, text: 'Experience', url: '#experience' },
+    { id: 0, text: 'About Me', url: '#about-me', isExternal: false },
+    { id: 1, text: 'Projects', url: '#projects', isExternal: false },
+    { id: 2, text: 'Skills', url: '#skills', isExternal: false },
+    { id: 3, text: 'Experience', url: '#experience', isExternal: false },
   ];
 
   return (
     <header>
-      {/* name and professional title */}
-      <h1>Adrian Rodriguez</h1>
-      <p>Web Development Student</p>
+      <div>
+        {/* name and professional title */}
+        <h1>Adrian Rodriguez</h1>
+        <p>Web Development Student</p>
+      </div>
 
       {/* simple navigation */}
-      <Nav id="main-nav" links={links} isExternal={false} />
+      <Nav id="main-nav" links={links} />
     </header>
   );
 }

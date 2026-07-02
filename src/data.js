@@ -3,11 +3,12 @@ const projectsData = [
     id: 0,
     category: 'frontend',
     image: {
-      url: 'images/frontend_mentor_qr_component.jpg',
+      url: 'images/Screenshot_frontend_mentor_qr_component.jpg',
       alt: 'Screenshot of a QR Code component linking to the Frontend Mentor website',
     },
     title: 'Frontend Mentor Challenge: QR Code Component',
-    description: 'add description',
+    description:
+      "My solution to Frontend Mentor's QR code component challenge. During this challenge, I realized the QR code was unusable for screen reader users, so I added a visually hidden component with a link and text to the same destination to make it accessible.",
     technologies: 'HTML and CSS',
     link: {
       url: 'https://github.com/adriarodr/qr-code-component',
@@ -22,7 +23,8 @@ const projectsData = [
       alt: 'Screenshot of Sprout and Grow webpage',
     },
     title: 'Sprout & Grow',
-    description: 'add description',
+    description:
+      'A multi-page website designed and built from a client brief for my web development certificate. I designed the layout and built it with HTML and CSS. The website features a products page with interactive filtering made entirely with CSS.',
     technologies: 'HTML and CSS',
     link: {
       url: 'https://wcet.waketech.edu/arodriguez28/WEB140/sprout-and-grow/index.html',
@@ -37,7 +39,8 @@ const projectsData = [
       alt: 'Screenshot of product preview card for Chanel Perfume',
     },
     title: 'Frontend Mentor Challenge: Product Preview Card',
-    description: 'add description',
+    description:
+      "My solution to Frontend Mentor's product preview card component challenge. I learned to use the HTML picture element to display product images at different resolutions for mobile and desktop views.",
     technologies: 'HTML and CSS',
     link: {
       url: 'https://github.com/adriarodr/preview-card',
@@ -52,10 +55,11 @@ const projectsData = [
       alt: 'Screenshot of Omelette recipe webpage',
     },
     title: 'Frontend Mentor Challenge: Recipe Page',
-    description: 'add description',
+    description:
+      "My solution to Frontend Mentor's recipe page challenge. This project reinforced what I learned in my web development classes by applying heading hierarchy, accessibility, and HTML and CSS validation with the W3C validator.",
     technologies: 'HTML and CSS',
     link: {
-      url: 'https://wcet.waketech.edu/arodriguez28/WEB140/sprout-and-grow/index.html',
+      url: 'https://github.com/adriarodr/recipe-page',
       text: 'GitHub Repo',
     },
   },

@@ -11,7 +11,6 @@ function App() {
       <Header />
 
       <main>
-        <p>Welcome to my portfolio</p>
         <About />
         <Projects />
         <Skills />
