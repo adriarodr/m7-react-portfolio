@@ -2,8 +2,8 @@ import Nav from './Nav';
 
 function Footer() {
   const footer_links = [
-    { text: 'GitHub', url: 'https://github.com/adriarodr' },
-    { text: 'Linkedin', url: 'https://www.linkedin.com/in/adriarodr/' },
+    { id: 0, text: 'GitHub', url: 'https://github.com/adriarodr' },
+    { id: 1, text: 'Linkedin', url: 'https://www.linkedin.com/in/adriarodr/' },
   ];
 
   const currentYear = new Date().getFullYear();

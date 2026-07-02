@@ -2,10 +2,10 @@ import Nav from './Nav';
 
 function Header() {
   const links = [
-    { text: 'About Me', url: '#about-me' },
-    { text: 'Projects', url: '#projects' },
-    { text: 'Skills', url: '#skills' },
-    { text: 'Experience', url: '#experience' },
+    { id: 0, text: 'About Me', url: '#about-me' },
+    { id: 1, text: 'Projects', url: '#projects' },
+    { id: 2, text: 'Skills', url: '#skills' },
+    { id: 3, text: 'Experience', url: '#experience' },
   ];
 
   return (

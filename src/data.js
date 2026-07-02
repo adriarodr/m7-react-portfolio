@@ -1,6 +1,6 @@
 const projectsData = [
   {
-    id: 1,
+    id: 0,
     category: 'frontend',
     image: {
       url: 'images/frontend_mentor_qr_component.jpg',
@@ -15,7 +15,7 @@ const projectsData = [
     },
   },
   {
-    id: 2,
+    id: 1,
     category: 'frontend',
     image: {
       url: 'images/Screenshot_sprout_grow.jpg',
@@ -30,7 +30,7 @@ const projectsData = [
     },
   },
   {
-    id: 3,
+    id: 2,
     category: 'frontend',
     image: {
       url: 'images/Screenshot_product_card.jpg',
@@ -45,7 +45,7 @@ const projectsData = [
     },
   },
   {
-    id: 4,
+    id: 3,
     category: 'frontend',
     image: {
       url: 'images/Screenshot_recipe_page.jpg',

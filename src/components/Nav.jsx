@@ -5,7 +5,7 @@ function Nav({ id, links, isExternal }) {
     <nav id={id}>
       <ul>
         {links.map((link) => (
-          <li>
+          <li key={link.id}>
             <Link url={link.url} text={link.text} isExternal={isExternal} />
           </li>
         ))}
