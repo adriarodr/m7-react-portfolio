@@ -1,4 +1,4 @@
-const projectsData = [
+export const projectsData = [
   {
     id: 0,
     category: 'frontend',
@@ -65,4 +65,44 @@ const projectsData = [
   },
 ];
 
-export default projectsData;
+export const experienceData = [
+  {
+    id: 0,
+    type: 'Class Project',
+    title: 'Sprout & Grow Website',
+    years: '2024',
+    duties: [
+      'Designed a multi-page website using Figma that incorporates client needs as described in a design brief',
+      'Translated the Figma designs into a website using HTML and CSS',
+    ],
+  },
+  {
+    id: 1,
+    type: 'Personal Learning',
+    title: 'Frontend Mentor Challenges',
+    years: '2024 - Present',
+    duties: [
+      'Assessed frontend designs and translated the designs into responsive webpages',
+      'Explored and experimented with JavaScript libraries and frameworks to implement the designs, such as React',
+    ],
+  },
+  {
+    id: 2,
+    type: 'Technology Responsibilities',
+    title: 'Astrophysics Research at NC State University',
+    years: '2026 - Present',
+    duties: [
+      'Collaborate with a mentor and lab partner to implement a Python program to compile and prepare data from thousands of simulation for machine learning',
+    ],
+  },
+  {
+    id: 3,
+    type: 'Volunteer Work',
+    title: 'Full-stack Developer',
+    years: '2026 - Present',
+    duties: [
+      'Work with a lab manager to identify their specific needs for developing a web application',
+      'Design and implement an inventory web application using Next.js, focusing on security, ease of use, database integration, and role management',
+    ],
+  },
+];

@@ -1,5 +1,5 @@
 import ProjectCard from './ProjectCard';
-import projectsData from '../data';
+import { projectsData } from '../data';
 import { useState } from 'react';
 
 export default function Projects() {
